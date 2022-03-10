@@ -1,2 +1,3 @@
-# Fourier-Transform-Calc
+# Fourier Transform Calculator
 In many different mathematical equations, calculating a function’s Fourier Transformation can be very useful, but can also be very time consuming and hard to visualize. I helped to create a sim- ple Python script for my Partial Differential Equations class to help visualize and simplify the process for many of my classmates.
+Using this calculator, you can define the equation in the python script (including unique functions such as hat and square functions), and the calculator will do the rest! The graph will be displayed using MatPlotLib and the first 50 coefficients will be printed out so that you can understand specifically the relationship between the coefficients if you don't know the equation and need help to figure it out!
