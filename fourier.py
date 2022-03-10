@@ -35,7 +35,7 @@ f[2*nquart:4*nquart] = f[2*nquart:4*nquart]
 fig,ax = plt.subplots()
 ax.plot(x,f,'-',color='k',linewidth = 2)
 var_num_print = str(var_num)
-if var_num == 69 or var_num == 34 or var_num == 420:
+if var_num in [69, 34, 420]:
     var_num_print += ' (nice)'
 plt.title(f'Fourier Series for {var_num_print} Terms')
 plt.xlabel('x')
